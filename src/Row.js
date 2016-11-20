@@ -2,7 +2,7 @@ const React = require('react');
 const classNames = require('classnames');
 
 const ModificatorType = React.PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl']);
-const modificatorKeys = ['start', 'center', 'end', 'top', 'middle', 'bottom', 'around', 'between', 'nowrap', 'hiddenUp', 'hiddenDown', 'noWrapUp', 'noWrapDown'];
+const modificatorKeys = ['start', 'center', 'end', 'top', 'middle', 'bottom', 'around', 'between', 'hiddenUp', 'hiddenDown', 'noWrapUp', 'noWrapDown'];
 
 const Row = React.createClass({
   propTypes: {
@@ -15,7 +15,6 @@ const Row = React.createClass({
     bottom: ModificatorType,
     around: ModificatorType,
     between: ModificatorType,
-    nowrap: ModificatorType,
     hiddenUp: ModificatorType,
     hiddenDown: ModificatorType,
     noWrapUp: ModificatorType,
