@@ -55,7 +55,7 @@ const Col = React.createClass({
         } else if (key === 'hiddenDown') {
           classes.push(`hidden-${value}-down`);
         } else if (value === 0 && (key === 'xs' || key === 'sm' || key === 'md' || key === 'lg' || key === 'xl')) {
-          classes.push(`col-${value}`);
+          classes.push(`col-${key}`);
         } else if (value) {
           classes.push(`${this._classMap[key]}${value}`);
         }
