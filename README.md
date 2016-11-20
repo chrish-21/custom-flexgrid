@@ -15,7 +15,7 @@ Usage
 
 
 ```jsx
-const {Grid, Row, Col} = require('react-flexgrid');
+const {Grid, Row, Col} = require('custom-flexgrid');
 
 const App = React.createClass({
   render() {
